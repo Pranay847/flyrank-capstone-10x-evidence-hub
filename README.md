@@ -38,3 +38,4 @@ Use `Authorization: Bearer reviewer-demo-token`. Read the seeded summary, add ev
 ## Non-goal and limitations
 
 Non-goal: ingesting arbitrary GitHub repositories automatically. Evidence is deliberately explicit and explainable. The default gap analyzer is deterministic; a hosted/local LLM can implement the same validated contract without changing workflow code.
+> **Work in progress:** Read [REVIEW_STATUS.md](REVIEW_STATUS.md) before evaluating. Earlier descriptions below include prototype claims; the status file explicitly lists unverified and missing requirements.

@@ -8,3 +8,4 @@
 - Reporting: `PDF report is a real PDF containing an audit page`.
 
 Run `npm test`; expected: 7 pass, 0 fail.
+> **Evidence scope correction:** Test names below describe fixture tests only. They do not establish full capstone completion. See [REVIEW_STATUS.md](REVIEW_STATUS.md) for gaps.
