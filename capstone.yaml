@@ -1,0 +1,12 @@
+run: node src/server.js
+seed: node src/seed.js
+test: node --test
+base_url: http://localhost:3500
+endpoints:
+  - POST /api/projects
+  - POST /api/projects/:id/evidence
+  - POST /api/projects/:id/audits
+  - POST /api/jobs/:id/run
+  - GET /api/projects/:id/summary
+  - GET /api/projects/:id/report.pdf
+  - GET /api/costs
